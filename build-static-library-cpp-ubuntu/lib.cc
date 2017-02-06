@@ -2,5 +2,5 @@
 #include <stdio.h>
 
 void sayHi(){
-	printf("Hello\n");
+	printf("Hello from static library\n");
 }
