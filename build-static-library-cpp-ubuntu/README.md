@@ -18,4 +18,4 @@ make
 ./prog
 ````
 
-- result should be: Hello
+- result should be: Hello from static library
