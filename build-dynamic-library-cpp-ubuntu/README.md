@@ -8,28 +8,28 @@ For building dynamic library c++ in Ubuntu
 Assumming that you are in **/build-dynamic-library-cpp-ubuntu** directory.
 
 
-````
+```
 make
-````
+```
 
 ### Testing dynamic library
 
-````
+```
 cd test
 make
-````
+```
 
-* Exporting path of the shared library to the enviroment variable
+  * Exporting path of the shared library to the enviroment variable
 
-````
-export LD_LIBRARY_PATH=..:$LD_LIBRARY_PATH
-````
+    ```
+    export LD_LIBRARY_PATH=..:$LD_LIBRARY_PATH
+    ```
 
-* Running the executable:
+  * Running the executable:
 
-````
-./prog
-````
+    ```
+    ./prog
+    ````
 
-* Result should be: Hello from dynamic library
+  * Result should be: Hello from dynamic library
  
