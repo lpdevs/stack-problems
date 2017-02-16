@@ -1,5 +1,6 @@
 ### Usage
-Using dlopen to load load dynamic library c++ in Ubuntu
+
+Using **dlopen()** to load dynamic library c++ in Ubuntu.
 
 
 ### Building dynamic library
